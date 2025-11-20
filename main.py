@@ -245,7 +245,7 @@ def main(directory):
         elif choice == "2":
             list_diagrams()
         elif choice == "3":
-            filename = input("Enter filename: ")
+            filename = input("Enter filename: ") #ex: Document 6_1.XML
             load_diagram(os.path.join(directory, filename))
         elif choice == "4":
             display_diagram_info()
